@@ -16,6 +16,7 @@
         <hadoop.version>2.6.4</hadoop.version>
         <sql.version>2.3.1</sql.version>
         <encoding>UTF-8</encoding>
+
     </properties>
     <dependencies>
         <dependency>
@@ -23,6 +24,13 @@
             <artifactId>spark-core_2.11</artifactId>
             <version>${spark.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
